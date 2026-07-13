@@ -1,6 +1,7 @@
 # Fay Saadi
 
 Calgary, AB | 778-251-2517
+
 [faysaadi@pm.me ](faysaadi@pm.me)| [LinkedIn](linkedin.com/in/fayez-saadi) | [GitHub](github.com/fayezosaadi)
 
 ---
