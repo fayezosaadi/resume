@@ -13,9 +13,9 @@ jobs:
         with:
           node-version: 24
 
-      #      - run: npm install -g md-to-pdf
-
-      - run: npx md-to-pdf resume.md
+      - name: Generate Resume PDF
+        run: |
+          npx md-to-pdf --launch-options '{"args": [ "--no-sandbox" ] }' resume.md
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
