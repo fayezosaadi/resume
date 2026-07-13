@@ -1,0 +1,19 @@
+name: Build Resume PDF
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@04be95cf3511ea51ebf9f224ddfb99cc7ab87cd4
+        with:
+          node-version: 24
+      - run: npm install -g markdown-pdf
+      - run: markdown-pdf resume.md -o resume.pdf
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: resume-pdf
+          path: resume.pdf
