@@ -12,7 +12,7 @@ Personal resume built with [Typst](https://typst.app/), a modern markup-based ty
 ## Compile
 
 ```bash
-npx typst compile resume.typ fayez-saadi-resume.pdf
+npx typst compile resume.typ fay-saadi-resume.pdf
 ```
 
 ## Requirements
@@ -22,7 +22,7 @@ npx typst compile resume.typ fayez-saadi-resume.pdf
 ## Structure
 
 - `resume.typ` — Main resume document with custom macros for consistent formatting
-- `fayez-saadi-resume.pdf` — Compiled PDF output
+- `fay-saadi-resume.pdf` — Compiled PDF output
 
 ## Font
 
