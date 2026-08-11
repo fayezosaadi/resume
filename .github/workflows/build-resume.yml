@@ -14,9 +14,9 @@ jobs:
           node-version: 24
 
       - name: Generate Resume PDF
-        run: npx typst compile resume.typ resume.pdf
+        run: npx typst compile resume.typ fay-saadi-resume.pdf
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
-          name: resume-pdf
-          path: resume.pdf
+          name: fay-saadi-resume-pdf
+          path: fay-saadi-resume.pdf
