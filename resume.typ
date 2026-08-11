@@ -57,7 +57,7 @@
 #align(center)[
   #text(size: 22pt, weight: "bold", fill: brand-color, tracking: 0.5pt)[FAY SAADI] \
   #v(0.1em)
-  #text(size: 10pt, weight: "medium", fill: rgb("#444444"), tracking: 0.5pt)[Senior Software Architect] \
+  #text(size: 10pt, weight: "medium", fill: rgb("#444444"), tracking: 0.5pt)[Senior Software Engineer] \
   #v(0.4em)
   #text(size: 9pt, fill: muted-gray)[
     #link("mailto:" + my-email)[#my-email] • 778-251-2517 • Calgary, AB • #link("https://" + my-linkedin)[LinkedIn] •
